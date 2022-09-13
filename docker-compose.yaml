@@ -1,0 +1,12 @@
+version: '3.4'
+services:
+  tracing-dotnet:
+    image: asp-crud
+    ports:
+      - 8080:8080
+  frontend:
+    image: react-app
+    ports:
+      - 3000:3000
+
+
